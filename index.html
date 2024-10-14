@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7c8b1ded1b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  <div id="header">
+       <div class="container">
+           <nav>
+               <!--<img src="images/logo.png" class="logo" />-->
+               <h1 style="font-size: 48px;"> Archana Poovendran</h1>
+               <ul>
+                   <li><a href="#header">Home</a></li>
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#portfolio">Work</a></li>
+                   <li><a href="#hobbies">Hobbies</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                   <li><a href="project.html">Projects</a></li>
+               </ul>
+           </nav>
+           <!-- Text and title on screen-->
+           <div class="header-text">
+               <h1>
+                   I am looking to explore my professional interests, <br />to learn and function
+                   effectively in a creative environment, <br /> to upgrade my knowledge and
+                   skills and make a difference in <br />whatever I do. I am a fast learner with
+                   good organizational,<br /> problem-solving/multitasking skills.
+               </h1>
+           </div>
+       </div>   
+  </div>
+<!-- About -->
+   <div id="about">
+       <div class="container">
+           <div class="row">
+               <div class="about-col-1">
+                   <img src="C:\Users\archa\OneDrive\Documents\GithubWebsite\2.jpg" />
+               </div>
+               <div class="about-col-2">
+                   <h1 class="sub-title">About Me </h1>
+                   <p>
+                       Completed Masters degree, from India after which, my family and I moved to IL. Took a break to take care of my family, and worked part time. Now, I am working full time in UIUC, and want to explore professional and personal interests. I have my permit to work in the US.
+                   </p>
+                   <div class="tab-titles">
+                       <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                       <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                       <p class="tab-links" onclick="opentab('education')">Education</p>
+                       <p class="tab-links" onclick="opentab('certificate')">Certificates</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                       <ul>
+                           <li><span>Languages</span><br />OOP concepts, HTML, CSS, ASP.Net, Javascript, SQL.</li>
+                           <li><span>Applications</span><br />Adobe, Active Directory, MECM, Group policy management,  Microsoft Office tools, MediaSpace</li>
+                       </ul>
+
+                   </div>
+                   <div class="tab-contents" id="experience">
+                       <ul>
+                           <li>
+                               <span>Assoc IT Specialist, ACES, UIUC</span><br />Currently working as a Assoc IT Specialist in University of Champaign-Urbana<br />
+                               Sep 2022 - Present
+                           </li>
+                           <li>
+                               <span>Professional scorer</span><br />Worked in Pearson as ‘Professional Scorer’ for the PARCC spring Operational Algebra II project.<br />
+                               May 2022 - Sep 2022
+                           </li>
+                           
+                       </ul>
+
+                   </div>
+                   <div class="tab-contents" id="education">
+                       <ul>
+                            <li><span>Data Analytics Bootcamp (Aug 2024 - Expected graduation: Feb 2025)</span><br />University of Illinois Chicago </li>
+                           <li><span>Master of Computer Applications(MCA) (2007-2012)</span><br />BMS College of Engineering, Bangalore, India.</li>
+                           <li><span>Bachelor of Science(B.Sc), Computer Science, Mathematics & Electronics (2004-2007)</span><br />Mysore University, India.</li>
+                       </ul>
+
+                   </div>
+                   <div class="tab-contents" id="certificate">
+                       <ul>
+                           <li><span>Google Data Analytics Professional Certificate, by Coursera</span><br />Jun 2022</li>
+                           <li><span>Microsoft Excel Data Analysis and Dashboard Reporting, Udemy.</span><br />May 2022</li>
+                       </ul>
+
+                   </div>
+
+               </div>
+           </div>
+           <a href="#">Top</a>
+       </div>
+   </div>
+
+<!--Portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="services-list">
+            <div>
+                <p>• Assist Faculty and Research Staff requests for technology assistance via phone, email and ticketing system and in person.</p>
+                <p>• Develop documentation and training resources for peers and for faculty and staff.</p>
+                <p>• Assist in the full life cycle of IT systems and products (hardware/software deployment) including purchasing, installation, tracking, and disposal/surplus.</p>
+                <p>• Consult with customers on installation and use of software applications.</p>
+                <p>• Provide customer assistance with network connectivity, administer local building networks, and manage DNS and DHCP for departmental networks.</p>
+                <p>• Assist in the use of varied computing and communications technology, provide end point management services.</p>
+                <p>• Provide support for the A/V equipment in the classroom, during seminars and special events.</p>
+                <p>• Create Websites for our Faculty and Research Staff using cPanel.</p>
+                <a href="#">Top</a>
+            </div>
+        </div>      
+    </div>
+</div>
+
+<!--Hobbies-->
+<div id="hobbies">
+    <div class="container">
+        <h1 class="sub-title">Hobbies</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-utensils"></i>
+                <h2>Cooking</h2>
+                <p>Love to try different cuisines for family and enjoy eating</p>
+                <a href="#">Top</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-puzzle-piece"></i>
+                <h2>Puzzles</h2>
+                <p>Enjoy puzzles related problem solving activities</p>
+                <a href="#">Top</a>
+            </div>
+            <div>
+
+                <i class="fa-solid fa-plane"></i>
+                <h2>Travelling</h2>
+                <p>Love to travel with family/friends and enjoy local cuisines</p>
+                <a href="#">Top</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Contact-->
+<div id="contact">
+    <div class="container">
+        <h1 class="sub-title">Contact</h1>
+        <div class="services-list">
+            <div>
+                <h4>Archana Poovendran</h4>
+                <p>
+                    archanap@illinois.edu<br />
+                </p>
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");//to remove the contents
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");  
+        }
+    </script>
+  </body>
+</html>
