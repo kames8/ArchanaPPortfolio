@@ -190,7 +190,7 @@ nav ul li a:hover::after{
 }
 
 /********CSS for small screen *********/
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
 	#header{
 		background-image: url(images/ArchPicMob.png);
 	}
