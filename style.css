@@ -128,7 +128,7 @@ nav ul li a:hover::after{
 	margin: 10px 0;
 }
 .tab-contents ul li span{
-	color: rgb(148, 110, 12);
+	color: rgb(223, 113, 11);
 	font-size: 14px;
 }
 /*Hiding the skills,education*/
@@ -139,7 +139,7 @@ nav ul li a:hover::after{
 	display: block;/*to make visible*/
 }
 
-/***********Services*********/
+/***********Services-Work*********/
 #services{
 	padding: 30px 0;
 }
@@ -186,5 +186,12 @@ nav ul li a:hover::after{
 
 /*********Portfolio***********/
 #portfolio{
-	padding: 50px 0;
+	padding: 30px 0;
+}
+
+/********CSS for small screen *********/
+@media only screen and (max-with: 600px){
+	#header{
+		
+	}
 }
