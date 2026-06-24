@@ -190,8 +190,3 @@ nav ul li a:hover::after{
 }
 
 /********CSS for small screen *********/
-@media only screen and (max-with: 600px){
-	#header{
-		
-	}
-}
