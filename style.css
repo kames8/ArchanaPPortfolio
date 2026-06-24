@@ -128,7 +128,7 @@ nav ul li a:hover::after{
 	margin: 10px 0;
 }
 .tab-contents ul li span{
-	color: darkgoldenrod;
+	color: rgb(68, 50, 4);
 	font-size: 14px;
 }
 /*Hiding the skills,education*/
