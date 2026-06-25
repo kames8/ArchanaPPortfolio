@@ -190,7 +190,12 @@ nav ul li a:hover::after{
 }
 
 /********CSS for small screen *********/
-@media only screen and (max-width: 800px){
+
+nav .fas{
+	display: none;
+}
+
+@media only screen and (max-width: 1200px){
 	#header{
 		background-image: url(images/ArchPicMob.png);
 	}
@@ -200,5 +205,30 @@ nav ul li a:hover::after{
 	}
 	.header-text h1{
 		font-size: 30px;
+	}
+	nav .fas{
+		display: block;
+		font-size: 25px;
+	}
+	nav ul{
+		background:#800000;
+		position: fixed;
+		top: 0;
+		right:-200px;
+		width:200px;
+		height:100vh;
+		padding-top:50px;
+		z-index: 2;
+		transform: right 0.5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 25px;
+	}
+	nav ul .fas{
+		position: absolute;
+		top: 25px;
+		left: 25px;
+		cursor: pointer;
 	}
 }
