@@ -195,7 +195,7 @@ nav .fas{
 	display: none;
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1300px){
 	#header{
 		background-image: url(images/ArchPicMob.png);
 	}
@@ -211,7 +211,7 @@ nav .fas{
 		font-size: 25px;
 	}
 	nav ul{
-		background:#800000;
+		background: #A4BD93;
 		position: fixed;
 		top: 0;
 		right:-200px;
