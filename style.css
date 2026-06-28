@@ -207,12 +207,21 @@ nav .fas{
         box-sizing: border-box;
         margin: 0;
         padding: 20px; /* Optional: adds a little breathing room inside for text */
-    }
+		/* NEW: Use Flexbox to align text dynamically instead of using large margins */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end; /* Pushes text towards the bottom of the image beautifully */
+	}
 	
 	.header-text{
-		margin-top: 80%;
+		/*margin-top: 80%;
 		font-size: 16px;
-		color: #800000;
+		color: #800000;*/
+		/* REMOVE margin-top entirely to prevent layout overflow */
+        margin-top: 0; 
+        margin-bottom: 40px; /* Gives some breathing room at the very bottom */
+        font-size: 16px;
+        color: #800000;
 	}
 	.header-text h1{
 		font-size: 30px;
