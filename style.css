@@ -194,7 +194,76 @@ nav ul li a:hover::after{
 nav .fas{
 	display: none;
 }
+@media only screen and (max-width: 600px) {
+    #header {
+        /* Fixes horizontal scrolling by containing the width correctly */
+        width: 100%;
+        min-height: 80vh; 
+        background-image: url(images/ArchPicMob.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+        padding: 20px;
+        box-sizing: border-box;
+        
+        /* Layout fix: removes flexbox behavior that was shrinking the image background */
+        display: block; 
+    }
 
+    .header-text {
+        /* Brings the text size down and positions it cleanly below the image area */
+        margin-top: 85%; 
+        font-size: 15px;
+        color: #800000;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .header-text h1 {
+        /* Shrinks the huge headline text so it doesn't cause horizontal spill */
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    /* FIX: Positions your menu toggle lines perfectly back in the top right corner */
+    nav .fas {
+        display: block;
+        font-size: 25px;
+        position: absolute;
+        top: 25px;
+        right: 20px;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    nav ul {
+        background: #A4BD93;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 4;
+        transition: right 0.5s; 
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+
+    /* The close icon (X) inside the opened menu drawer */
+    nav ul .fas {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+}
+
+/* 
 @media only screen and (max-width: 600px){
 	#header{
 		background-image: url(images/ArchPicMob.png);
@@ -202,26 +271,13 @@ nav .fas{
 		background-position: center;
 		background-repeat: no-repeat;
 
-		width: 100%;
-        height: 100vh; 
-        box-sizing: border-box;
-        margin: 0;
-        padding: 20px; /* Optional: adds a little breathing room inside for text */
-		/* NEW: Use Flexbox to align text dynamically instead of using large margins */
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end; /* Pushes text towards the bottom of the image beautifully */
+		
 	}
 	
 	.header-text{
-		/*margin-top: 80%;
+		margin-top: 80%;
 		font-size: 16px;
-		color: #800000;*/
-		/* REMOVE margin-top entirely to prevent layout overflow */
-        margin-top: 0; 
-        margin-bottom: 40px; /* Gives some breathing room at the very bottom */
-        font-size: 16px;
-        color: #800000;
+		color: #800000;
 	}
 	.header-text h1{
 		font-size: 30px;
@@ -251,4 +307,4 @@ nav .fas{
 		left: 25px;
 		cursor: pointer;
 	}
-}
+}*/ 
