@@ -4,193 +4,201 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
+    <title>Archana Poovendran — Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/7c8b1ded1b.js" crossorigin="anonymous"></script>
   </head>
   <body>
+
   <div id="header">
-       <div class="container">
-           <nav>
-               <!--<img src="images/logo.png" class="logo" />-->
-               <h1 style="font-size: 48px;"> Archana Poovendran</h1>
-               <ul id="sidemenu">
-                   <li><a href="#header">Home</a></li>
-                   <li><a href="#about">About</a></li>
-                   <li><a href="#services">Work</a></li>
-                   <li><a href="#hobbies">Hobbies</a></li>
-                   <li><a href="listProjects.html">Projects</a></li>
-                   <li><a href="#contact">Contact</a></li>
-                   <i class="fas fa-times" onclick="closemenu()"></i>
-               </ul>
-               <i class="fas fa-bars" onclick="openmenu()"></i>
-           </nav>
-           <!-- Text and title on screen-->
-           <div class="header-text">
-               <h2 style="font-size: 26px;"><em>
-                   Curious and driven learner,  <br />
-                   with a passion for exploring <br />
-                   new technologies and ideas.</em>
-               </h2>
-           </div>
-       </div>   
+    <div class="container">
+      <nav>
+        <h1>Archana Poovendran</h1>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Work</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="listProjects.html">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <h2>
+          <em>Curious and driven learner,<br>
+          with a passion for exploring<br>
+          new technologies and ideas.</em>
+        </h2>
+      </div>
+    </div>
   </div>
-<!-- About -->
-   <div id="about">
-       <div class="container">
-           <div class="row">
-               <div class="about-col-1">
-                   <img src="images\ArchPic2.jpg" />
-               </div>
-               <div class="about-col-2">
-                   <h1 class="sub-title">About Me </h1>
-                   <p>
-                       Detail-oriented IT professional and web developer with a Master of Computer Applications and hands-on experience creating, managing, and maintaining websites for faculty, staff, and students at the University of Illinois. Proven ability to develop accessible, responsive web solutions using HTML, CSS, WordPress, and JavaScript in a university environment. 
-                       Skilled at collaborating with diverse stakeholders, translating user needs into effective digital experiences
-                   </p><br>
-                   <div class="tab-titles">
-                       <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                       <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                       <p class="tab-links" onclick="opentab('education')">Education</p>
-                       <p class="tab-links" onclick="opentab('certificate')">Certificates</p>
-                   </div>
-                   <div class="tab-contents active-tab" id="skills">
-                       <ul>
-                           <li><span>Languages</span><br />OOP concepts, HTML, CSS, Javascript, SQL.</li>
-                           <li><span>Applications</span><br />Adobe, Active Directory, MECM, Group policy management,  Microsoft Office tools, MediaSpace</li>
-                       </ul>
 
-                   </div>
-                   <div class="tab-contents" id="experience">
-                       <ul>
-                            <li>
-                               <span>IT Specialist, Technology Services, UIUC</span><br />Currently working as a IT Specialist in University of Champaign-Urbana<br />
-                               May 2025 - Present
-                           </li>
-                           <li>
-                               <span>Assoc IT Specialist, ACES, UIUC</span><br />Worked as a Assoc IT Specialist in University of Champaign-Urbana<br />
-                               Sep 2022 - May2025
-                           </li>
-                           <li>
-                               <span>Professional scorer</span><br />Worked in Pearson as ‘Professional Scorer’ for the PARCC spring Operational Algebra II project.<br />
-                               May 2022 - Sep 2022
-                           </li>
-                           
-                       </ul>
-
-                   </div>
-                   <div class="tab-contents" id="education">
-                       <ul>
-                            <li><span>Data Analytics Bootcamp (Aug 2024 - Expected graduation: Feb 2025)</span><br />University of Illinois Chicago </li>
-                           <li><span>Master of Computer Applications(MCA) (2007-2012)</span><br />BMS College of Engineering, Bangalore, India.</li>
-                           <li><span>Bachelor of Science(B.Sc), Computer Science, Mathematics & Electronics (2004-2007)</span><br />Mysore University, India.</li>
-                       </ul>
-
-                   </div>
-                   <div class="tab-contents" id="certificate">
-                       <ul>
-                           <li><span>Google Data Analytics Professional Certificate, by Coursera</span><br />Jun 2022</li>
-                           <li><span>Microsoft Excel Data Analysis and Dashboard Reporting, Udemy.</span><br />May 2022</li>
-                       </ul>
-
-                   </div>
-
-               </div>
-           </div>
-           <a href="#">Top</a>
-       </div>
-   </div>
-
-<!--Services-Work-->
-<div id="services">
+  <!-- About -->
+  <div id="about">
     <div class="container">
-        <h1 class="sub-title">My Work</h1>
-        <div class="services-list">
-            <div>
-                <p>• Assist Faculty and Research Staff requests for technology assistance via phone, email and ticketing system and in person.</p>
-                <p>• Develop documentation and training resources for peers and for faculty and staff.</p>
-                <p>• Assist in the full life cycle of IT systems and products (hardware/software deployment) including purchasing, installation, tracking, and disposal/surplus.</p>
-                <p>• Provide customer assistance with network connectivity, administer local building networks, and manage DNS and DHCP for departmental networks.</p>
-                <p>• Design and build websites for faculty and research staff using cPanel, WordPress, and HTML/CSS/JavaScript ensuring adherence to departmental branding and design standards.</p>
-                <p>• Collaborate across units to coordinate web-related and technology projects affecting Staff, Faculty, and Students.</p>
-                <p>• Provide support for the A/V equipment in the classroom, during seminars and special events.</p>
-                <p>• Automate workflows using Power Automate, PowerShell scripts, and custom code to streamline repetitive processes.</p>
-                <a href="#">Top</a>
-            </div>
-        </div>      
-    </div>
-</div>
-
-<!--Hobbies-->
-<div id="hobbies">
-    <div class="container">
-        <h1 class="sub-title">Hobbies</h1>
-        <div class="services-list">
-            <div>
-                <i class="fa-solid fa-utensils"></i>
-                <h2>Cooking</h2>
-                <p>Love to try different cuisines for family and enjoy eating</p>
-                <a href="#">Top</a>
-            </div>
-            <div>
-                <i class="fa-solid fa-puzzle-piece"></i>
-                <h2>Puzzles</h2>
-                <p>Enjoy puzzles related problem solving activities</p>
-                <a href="#">Top</a>
-            </div>
-            <div>
-
-                <i class="fa-solid fa-plane"></i>
-                <h2>Travelling</h2>
-                <p>Love to travel with family/friends and enjoy local cuisines</p>
-                <a href="#">Top</a>
-            </div>
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/ArchPic2.jpg" alt="Archana Poovendran" />
         </div>
-    </div>
-</div>
-
-<!--Contact-->
-<div id="contact">
-    <div class="container">
-        <h1 class="sub-title">Contact</h1>
-        <div class="services-list">
-            <div>
-                <h4>Archana Poovendran</h4>
-                <p>
-                    archanap@illinois.edu<br />
-                </p>
-               
-            </div>
+        <div class="about-col-2">
+          <h2 class="sub-title">About Me</h2>
+          <p>
+            Detail-oriented IT professional and web developer with a Master of Computer Applications
+            and hands-on experience creating, managing, and maintaining websites for faculty, staff,
+            and students at the University of Illinois. Proven ability to develop accessible,
+            responsive web solutions using HTML, CSS, WordPress, and JavaScript in a university
+            environment. Skilled at collaborating with diverse stakeholders, translating user needs
+            into effective digital experiences.
+          </p><br>
+          <div class="tab-titles">
+            <button class="tab-links active-link" onclick="opentab('skills')">Skills</button>
+            <button class="tab-links" onclick="opentab('experience')">Experience</button>
+            <button class="tab-links" onclick="opentab('education')">Education</button>
+            <button class="tab-links" onclick="opentab('certificate')">Certificates</button>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Languages</span><br>OOP concepts, HTML, CSS, Javascript, SQL.</li>
+              <li><span>Applications</span><br>Adobe, Active Directory, MECM, Group policy management, Microsoft Office tools, MediaSpace</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>
+                <span>IT Specialist, Technology Services, UIUC</span><br>
+                Currently working as IT Specialist at the University of Illinois Urbana-Champaign<br>
+                May 2025 – Present
+              </li>
+              <li>
+                <span>Assoc IT Specialist, ACES, UIUC</span><br>
+                Worked as Assoc IT Specialist at the University of Illinois Urbana-Champaign<br>
+                Sep 2022 – May 2025
+              </li>
+              <li>
+                <span>Professional Scorer, Pearson</span><br>
+                Scored the PARCC Spring Operational Algebra II project.<br>
+                May 2022 – Sep 2022
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Data Analytics Bootcamp (Aug 2024 – Feb 2025)</span><br>University of Illinois Chicago</li>
+              <li><span>Master of Computer Applications — MCA (2007–2012)</span><br>BMS College of Engineering, Bangalore, India</li>
+              <li><span>B.Sc, Computer Science, Mathematics &amp; Electronics (2004–2007)</span><br>Mysore University, India</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="certificate">
+            <ul>
+              <li><span>Google Data Analytics Professional Certificate — Coursera</span><br>Jun 2022</li>
+              <li><span>Microsoft Excel Data Analysis and Dashboard Reporting — Udemy</span><br>May 2022</li>
+            </ul>
+          </div>
         </div>
+      </div>
+      <a href="#header" class="back-to-top">↑ Back to top</a>
     </div>
-</div>
+  </div>
 
+  <!-- Work -->
+  <div id="services">
+    <div class="container">
+      <h2 class="sub-title">My Work</h2>
+      <div class="services-list">
+        <div>
+          <p>• Assist faculty and research staff with technology requests via phone, email, ticketing system, and in person.</p>
+          <p>• Develop documentation and training resources for peers, faculty, and staff.</p>
+          <p>• Support the full life cycle of IT systems including purchasing, installation, tracking, and disposal.</p>
+          <p>• Provide network connectivity support and administer local building networks, DNS, and DHCP.</p>
+          <p>• Design and build websites using cPanel, WordPress, and HTML/CSS/JavaScript in line with departmental branding standards.</p>
+          <p>• Collaborate across units to coordinate web and technology projects for staff, faculty, and students.</p>
+          <p>• Provide A/V support in classrooms, during seminars, and at special events.</p>
+          <p>• Automate workflows using Power Automate, PowerShell scripts, and custom code.</p>
+          <a href="#header" class="back-to-top">↑ Back to top</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<!--*******script for the About Me tabs**************-->
-    <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname) {
-            for (tablink of tablinks) {
-                tablink.classList.remove("active-link");//to remove the contents
-            }
-            for (tabcontent of tabcontents) {
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");  
-        }
-    </script>
+  <!-- Hobbies -->
+  <div id="hobbies">
+    <div class="container">
+      <h2 class="sub-title">Hobbies</h2>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-utensils"></i>
+          <h2>Cooking</h2>
+          <p>Love to try different cuisines for family and enjoy eating.</p>
+          <a href="#header" class="back-to-top">↑ Back to top</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-puzzle-piece"></i>
+          <h2>Puzzles</h2>
+          <p>Enjoy puzzle-based problem solving activities.</p>
+          <a href="#header" class="back-to-top">↑ Back to top</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-plane"></i>
+          <h2>Travelling</h2>
+          <p>Love to travel with family and friends and discover local cuisines.</p>
+          <a href="#header" class="back-to-top">↑ Back to top</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <!--*******script for the mobile close and open menu tabs**************-->
-    <script>
-        var sidemenus = document.getElementById("sidemenu");
-        function openmenu(){
-            sidemenus.style.right = "0";
-        }
-         function closemenu(){
-            sidemenus.style.right = "-200px";
-        }
-    </script>
+  <!-- Contact -->
+  <div id="contact">
+    <div class="container">
+      <h2 class="sub-title">Contact</h2>
+      <div class="services-list">
+        <div>
+          <h4>Archana Poovendran</h4>
+          <p><a href="mailto:archanap@illinois.edu" style="color:cornflowerblue;text-decoration:none;">archanap@illinois.edu</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="foot-name">Archana Poovendran</div>
+    <div class="foot-links">
+      <a href="#about">About</a>
+      <a href="#services">Work</a>
+      <a href="listProjects.html">Projects</a>
+      <a href="mailto:archanap@illinois.edu">Email</a>
+    </div>
+    <div class="copy">&copy; 2026 Archana Poovendran. All rights reserved.</div>
+  </footer>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (var tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (var tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    var sidemenus = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemenus.classList.add("open");
+    }
+
+    function closemenu() {
+      sidemenus.classList.remove("open");
+    }
+  </script>
+
   </body>
 </html>
